@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "launchmate-backend"
+version = "0.1.0"
+description = "AI-powered venture studio assistant"
+authors = ["LaunchMate Team"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.30.0"}
+pydantic = "^2.9.0"
+pydantic-settings = "^2.4.0"
+sqlalchemy = "^2.0.35"
+asyncpg = "^0.29.0"
+alembic = "^1.13.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.9"
+redis = "^5.0.0"
+celery = "^5.4.0"
+httpx = "^0.27.0"
+langchain = "^0.3.0"
+langchain-openai = "^0.2.0"
+beautifulsoup4 = "^4.12.0"
+requests = "^2.32.0"
+python-dotenv = "^1.0.0"
+fastapi-cache2 = "^0.2.1"
+structlog = "^24.4.0"
+langgraph = "0.2.56"
+email-validator = "^2.3.0"
+reportlab = "^4.5.1"
+boto3 = "^1.43.18"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+pytest-asyncio = "^0.24.0"
+pytest-cov = "^6.0.0"
+httpx = "^0.27.0"
+ruff = "^0.6.0"
+mypy = "^1.11.0"
+pre-commit = "^3.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

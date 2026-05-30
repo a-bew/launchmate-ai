@@ -1,0 +1,126 @@
+# ============================
+# Python / Backend
+# ============================
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+*.log
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ruff
+.ruff_cache/
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# Local storage
+storage/briefs/*.pdf
+storage/briefs/*.tmp
+
+# ============================
+# Frontend / Node
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+
+# ============================
+# IDEs & Editors
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================
+# OS & System
+# ============================
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Docker
+# ============================
+*.pid
+docker-compose.override.yml
+
+# ============================
+# Secrets & Environment
+# ============================
+.env
+.env.local
+.env.*.local
+
+# ============================
+# Logs
+# ============================
+*.log
+logs/
+celerybeat-schedule
+celerybeat-schedule.db
+
+# ============================
+# Temporary files
+# ============================
+*.tmp
+*.bak
+*.swp
+~$*
